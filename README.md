@@ -12,10 +12,10 @@
   <li>Build a project Django admin start project<br><code>django-admin startproject core .</code></li>
   <li>Build a project Django admin start app called norme<br><code>django-admin startapp norme</code></li>
   <li>Build a model from data. We are going to create a new class called Norme in the following path<br><code>norme/models.py</code></li>
-  <li>Register our application into core/settings.py so it finds our new model 'norme'</li>
+  <li>Register our application into <code>core/settings.py</code> so it finds our new model <code>'norme'</code></li>
   <li>Apply the migrations files to create the tables in the database<br><code>manage.py makemigrations</code> <br><code>manage.py migrate</code></li>
   <li>Install extension SQLite in visual studio</li>
   <li>Download sqlite.exe from website sqlite.org/download.html (for example: for windows) then drag that into our project. We use that to access our database and load up our csv file.</li>
-  <li>Run sqlite.exe file and then select the database 'db.sqlite3' we want to work with<br><code>sqlite.exe db.sqlite3</code></li>
+  <li>Run <code>sqlite.exe</code> file and then select the database <code>db.sqlite3</code> we want to work with<br><code>sqlite.exe db.sqlite3</code></li>
   <li>Load up our csv file into the database<br><code>.mode csv</code><br><code>.import data_cleaning.csv norme_norme</code></li>
 </ul>
