@@ -1,4 +1,4 @@
-<p> In this repository, we are going to import data from an CSV file into an existing django model. We use visual studio to write the scripts.</p>
+<p> In this repository, we are going to import data from an CSV file into an existing django model. We use visual studio to write the python scripts with Python 3.9.4 version.</p>
 <br>
 <p>First we need to clean the data.</p>
 <p>Our data contain a single column called 'NUMDOS|NUMDOSVERLING|ANCART|FILIERE|ETAPE|VERLING|FORMAT'</p>
