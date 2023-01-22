@@ -8,7 +8,7 @@
   <li>Build a project Django admin start app called norme<br><code>django-admin startapp norme</code></li>
   <li>Build a model from data. We are going to create a new class called Norme in the following path:<br><code>norme/models.py</code></li>
   <li>Register our application into core/settings.py so it finds our new model 'norme'.</li>
-  <li>Apply the migrations files to create the tables in the database<br><code>manage.py makemigrations </br> manage.py migrate</code></li>
+  <li>Apply the migrations files to create the tables in the database<br><code>manage.py makemigrations</code> <br><code>manage.py migrate</code></li>
   <li><br><code></code></li>
   <li><br><code></code></li>
   <li><br><code></code></li>
