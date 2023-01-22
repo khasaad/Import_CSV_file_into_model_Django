@@ -1,6 +1,6 @@
 <p> In this repository, we are going to import data from an CSV file into an existing django model. We use visual studio to write the scripts.</p>
 </br>
-<p>First we need to clean the data. Our data contain a single column called 'NUMDOS|NUMDOSVERLING|ANCART|FILIERE|ETAPE|VERLING|FORMAT', we are going to separate it with the symbol '|' to obtain 7 new colomun with our values: norme/data_cleaning.py</p>
+<p>First we need to clean the data. Our data contain a single column called 'NUMDOS|NUMDOSVERLING|ANCART|FILIERE|ETAPE|VERLING|FORMAT', we are going to separate it with the symbol '|' to obtain 7 new colomuns with their values: norme/data_cleaning.py</p>
 <h3>Steps to upload csv file:</h3>
 <ul>
   <li>Create a virtual environment<br><code>py -m venv venv</code></li>
