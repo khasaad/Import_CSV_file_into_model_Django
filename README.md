@@ -6,4 +6,11 @@
   <li>Install Django<br><code>pip install django</code></li>
   <li>Build a project Django admin start project<br><code>django-admin startproject core .</code></li>
   <li>Build a project Django admin start app called norme<br><code>django-admin startapp norme</code></li>
+  <li>Build a model from data. We are going to create a new class called Norme<br><code></code></li>
+  <li><br><code></code></li>
+  <li><br><code></code></li>
+  <li><br><code></code></li>
+  <li><br><code></code></li>
+  <li><br><code></code></li>
+  <li><br><code></code></li>
 </ul>
