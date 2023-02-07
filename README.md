@@ -26,9 +26,9 @@
   <li>Create views: <code>norme/views.py</code></li>
     <ol>
       <p>First, we imported the necessary modules and models for our application. We have class MyData, containing get method that serves for GET HTTP method.</p>
-      <li>get method of MyData class, lists all the data.</li>
+      <p>get method of MyData class, lists all the data.</p>
       <p>After that, we have MyDataDetail class, containing get method that serves for GET HTTP method.</p>
-      <li>get method of MyDataDetail class, takes one argument called "pk" (primary key) and provides the complete detail of the data having that primary key.</li>
+      <p>get method of MyDataDetail class, takes one argument called "pk" (primary key) and provides the complete detail of the data having that primary key.</p>
     </ol>
   <li></li>
   <li></li>
