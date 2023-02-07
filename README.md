@@ -33,7 +33,13 @@
   <li>Route Setup</li>
   <p>Now, we need to configure endpoint or URL to access the app. First define route for norme app by editing project's urls.py file. <code>core/urls.py</code></p>
   <p>Here, we have defined the route norms/ for our app norme. </p>
-  <li></li>
+  <li>Define routes for the API of norme app.</li>
+  <p>To do this create urls.py file inside norme app. <code>norme/urls.py</code></p>
+  <p>Explaining the URL patterns:</p>
+  <ol>
+    <li>We have defined empty pattern for MyData class, so that our API will have structure like <server_name:port>/norms/. (Note: norms/ came from norme app application route that we defined in project wide urls.py)</li>
+    <li>For class MyDataList, we have defined integer pattern for the key pk. Here API will have structure like <server_name:port>/norms/1/.</li>
+  </ol>
   <li></li>
   <li></li>
   <li></li>
