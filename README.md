@@ -25,7 +25,9 @@
 <ul>
   <li>Create views: <code>norme/views.py</code></li>
     <ol>
-      <li></li>
+      <p>First, we imported the necessary modules and models for our application.</p>
+      <br>
+      <p>We have class MyData, containing get method that serves for GET HTTP method.</p>
     </ol>
   <li></li>
   <li></li>
