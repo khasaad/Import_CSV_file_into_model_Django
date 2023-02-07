@@ -15,4 +15,4 @@ class MyData(View):
 class MyDataDetail(View):
     def get(self, request, pk):
         data_list = {"norme": list(Norme.objects.filter(pk=pk).values())}
-        return JsonResponse(data_list, safe=False)
+        return JsonResponse(data_list, safe=False)  
