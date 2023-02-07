@@ -1,8 +1,9 @@
-<p> In this repository, we are going to import data from an CSV file into an existing django model. We use visual studio to write the python scripts with Python 3.9.4 version.</p>
+<p> In this repository, we are going to import data from an CSV file into an existing django model and create REST API Using Core Django. We use visual studio to write the python scripts with Python 3.9.4 version.</p>
 <br>
 <p>First we need to clean the data.</p>
 <p>Our data contain a single column called <code>'NUMDOS|NUMDOSVERLING|ANCART|FILIERE|ETAPE|VERLING|FORMAT'</code></p>
 <p>We are going to separate it with the symbol '|' to obtain 7 new colomuns with their values: <code>norme/data_cleaning.py</code></p>
+<br>There are no columns with the same values and there are no duplicate values.
 <br>
 <h3>Steps to upload csv file:</h3>
 <ul>
