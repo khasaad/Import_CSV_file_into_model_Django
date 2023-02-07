@@ -42,3 +42,16 @@
   </ol>
   <li>Start the development server:  <code>python .\manage.py runserver</code></li>
 </ul>
+
+<br>
+<h3>Configure pytest-django:</h3>
+<ul>
+<li>Install pytest django to test the project using the Django framework: <code>pip install pytest-django</code></li>
+  <li>Create a file <code>pytest.ini</code><br>The configuration of pytest-django requires the creation of the pytest.ini file containing the path to the project settings file. We must specify the path using the DJANGO_SETTINGS_MODULE variable. Otherwise, the tests will not run.</li>
+<li>Create a folder <code>tests/</code></li>
+  <ol>
+  <li>Test the URL: <code>/tests/test_urls.py</code></li>
+    <li>Test the model: <code>/tests/test_models.py</code></li>
+  </ol>
+</ul>
+
