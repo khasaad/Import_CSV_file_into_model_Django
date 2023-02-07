@@ -12,4 +12,4 @@ class Norme (models.Model):
     formats = models.TextField(_("FORMAT"), max_length=255, blank=True)
 
     def __str__(self):
-        return self.numdos
+        return f'{self.numdos} | {self.numdosverling} | {self.ancart} | {self.filiere} | {self.etape} | {self.verling} | {self.formats}'
