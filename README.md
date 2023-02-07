@@ -24,7 +24,9 @@
 <h3>Steps to get data using API:</h3>
 <ul>
   <li>Create views: <code>norme/views.py</code></li>
-  <ol></ol>
+    <ol>
+      <li></li>
+    </ol>
   <li></li>
   <li></li>
   <li></li>
