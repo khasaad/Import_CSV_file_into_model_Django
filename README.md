@@ -29,7 +29,7 @@
       <p>get method of MyData class, lists all the data.</p>
       <p>After that, we have MyDataDetail class, containing get method that serves for GET HTTP method.</p>
       <p>get method of MyDataDetail class, takes one argument called "pk" (primary key) and provides the complete detail of the data having that primary key.</p>
-    </ol>
+    </ol> 
   <li>Route Setup</li>
   <p>Now, we need to configure endpoint or URL to access the app. First define route for norme app by editing project's urls.py file. <code>core/urls.py</code></p>
   <p>Here, we have defined the route norms/ for our app norme. </p>
