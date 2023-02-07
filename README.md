@@ -40,7 +40,5 @@
     <li>We have defined empty pattern for MyData class, so that our API will have structure like <server_name:port>/norms/. (Note: norms/ came from norme app application route that we defined in project wide urls.py)</li>
     <li>For class MyDataList, we have defined integer pattern for the key pk. Here API will have structure like <server_name:port>/norms/1/.</li>
   </ol>
-  <li></li>
-  <li></li>
-  <li></li>
+  <li>Start the development server:  <code>python .\manage.py runserver</code></li>
 </ul>
