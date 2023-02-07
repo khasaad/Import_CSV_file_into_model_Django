@@ -54,4 +54,3 @@
     <li>Test the model: <code>/tests/test_models.py</code></li>
   </ol>
 </ul>
-
