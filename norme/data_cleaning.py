@@ -9,5 +9,5 @@ def split_data(file_csv: str, cond: str):
     return dataframe
 
 if __name__ == '__main__':
-     df = split_data('data.csv', '|')
-     df.to_csv('new_data.csv', encoding='utf-8', index=False)
+    df = split_data('data.csv', '|')
+    df.to_csv('new_data.csv', encoding='utf-8', index=False)

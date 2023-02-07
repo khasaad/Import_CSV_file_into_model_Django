@@ -1,0 +1,8 @@
+from django.urls import path
+
+from my_app.views import MyData, MyDataDetail
+
+urlpatterns = [
+    path('', MyData.as_view()),
+    path('<int:pk>/', MyDataDetail.as_view()),
+]
